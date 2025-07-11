@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "name": "Andres Felipe Restrepo Ramirez",
+      "posicion": "volante medio",
+      "pais": "colombia",
+      "pie": "derecha",
+      "id": "4bad"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "posicion": "Extremo Derecho",
+      "pais": "Portugues",
+      "pie": "derecha",
+      "id": "fdc7"
+    },
+    {
+      "id": "ebf5",
+      "name": "Liones Messi",
+      "posicion": "Diez",
+      "pais": "Argelia",
+      "pie": "izquierda"
+    },
+    {
+      "id": "ce6c",
+      "name": "Maradona",
+      "posicion": "diez",
+      "pais": "venezuela",
+      "pie": "izquierda"
+    }
+  ]
+}

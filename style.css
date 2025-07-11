@@ -1,0 +1,104 @@
+/* ====== Estilos generales ====== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ====== Formulario ====== */
+#contenedor-form {
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto 30px auto; /* Centrado y separación inferior */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Etiquetas de los campos */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botón de guardar */
+#btnGuardar {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #28a745; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btnGuardar:hover {
+  background-color: #218838; /* Verde más oscuro al pasar el mouse */
+}
+
+/* ====== Tabla de jugadores ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Encabezado de la tabla */
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Filas alternadas para mejor legibilidad */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Botones de acciones dentro de la tabla */
+td button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+td button:first-child {
+  background-color: #ffc107; /* Amarillo - Editar */
+  color: #000;
+}
+
+td button:last-child {
+  background-color: #dc3545; /* Rojo - Eliminar */
+  color: #fff;
+}
+
+td button:hover {
+  opacity: 0.9;
+}

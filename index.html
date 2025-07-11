@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD Jugadores De Futbol</h1>
+    <section>
+        <div id="contenedor-form">
+            <form id="formulario">
+                
+                <label for="name">Nombre jugador:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="posicion">Posicion:</label>
+                <input type="text" name="posicion" id="posicion">
+
+                <label for="pais">Nacionalidad:</label>
+                <input type="text" id="pais" name="pais" required>
+
+                <label for="pie">Pierna habil:</label>
+                <input type="text" id="pie" name="pie" required>
+
+                <button type="submit" id="btnGuardar">Guardar datos</button>
+
+            </form>
+        </div>
+    </section>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Posicion</th>
+                <th>Nacionalidad</th>
+                <th>Pie</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+
+        </tbody>
+    </table>
+    
+    <script src="main.js"></script>
+</body>
+</html>
