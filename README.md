@@ -57,15 +57,11 @@ Puedes usar estos datos en el login:
 
 **Admin:**
 - Usuario: `admin`
-- Contraseña: `123`
+- Contraseña: `1234`
 
 **Usuario:**
 - Usuario: `user`
-- Contraseña: `123`
-
-## 📸 Vista previa
-
-> Puedes incluir capturas aquí si deseas
+- Contraseña: `1234`
 
 ---
 
