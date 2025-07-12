@@ -218,3 +218,45 @@ tbody tr:nth-child(even) {
 .buttonDisplay:hover {
   background-color: #138496;
 }
+
+
+/* ============================= */
+/* 📱 MEDIA QUERY RESPONSIVE */
+/* ============================= */
+@media (max-width: 768px) {
+  /* Formularios en una sola columna */
+  #formulario {
+    grid-template-columns: 1fr;
+  }
+
+  /* Botón ocupa todo el ancho */
+  #btnGuardar {
+    width: 100%;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  /* Texto y contenedores más compactos */
+  section,
+  .estilosUser,
+  #contenedor-admin {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  /* Tabla desplazable horizontal */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Navegación más clara en pantallas pequeñas */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
