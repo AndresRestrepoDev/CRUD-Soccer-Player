@@ -1,95 +1,72 @@
-# ⚽ CRUD de Jugadores de Fútbol
+# ⚽ CRUD Soccer Player
 
-Este proyecto es una aplicación web simple que permite **crear, leer, actualizar y eliminar (CRUD)** jugadores de fútbol. Está construido con **HTML, CSS y JavaScript puro**, y utiliza `json-server` para simular una API REST local.
+Aplicación web tipo SPA (Single Page Application) para gestionar jugadores de fútbol. Implementa operaciones CRUD, autenticación de usuarios con roles y navegación dinámica sin recarga de página.
 
----
-
-## 🛠 Tecnologías utilizadas
+## 🛠️ Tecnologías usadas
 
 - HTML5
-- CSS3
-- JavaScript (vanilla)
-- [json-server](https://github.com/typicode/json-server) para simular el backend
+- CSS3 (con diseño responsive)
+- JavaScript (puro, sin frameworks)
+- JSON Server (API REST falsa)
 
----
+## 📌 Funcionalidades
 
-## 📂 Estructura del proyecto
+- Login con rol de **admin** o **usuario**
+- Navegación SPA sin recargas usando rutas hash (`/#/admin`, `/#/usuario`)
+- Rol **admin** puede:
+  - Crear, leer, actualizar y eliminar jugadores
+- Rol **usuario** solo puede:
+  - Visualizar la lista de jugadores
+- Protección de rutas: no puedes acceder sin iniciar sesión
+- Datos persistidos en `db.json` vía JSON Server
+
+## 🚀 Cómo usar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/AndresRestrepoDev/CRUD-Soccer-Player.git
+   cd CRUD-Soccer-Player
+   ```
+
+2. Instala JSON Server si no lo tienes:
+   ```bash
+   npm install -g json-server
+   ```
+
+3. Ejecuta el servidor:
+   ```bash
+   json-server --watch db.json
+   ```
+
+4. Abre `index.html` en tu navegador.
+
+## 📁 Estructura del proyecto
 
 ```
-/CRUD
-├── index.html         # Página principal
-├── style.css          # Estilos básicos
-├── main.js            # Lógica de interacción (fetch, eventos)
-├── db.json            # Base de datos simulada para json-server
-└── README.md          # Este archivo
+📦 CRUD-Soccer-Player
+├── db.json              # Base de datos falsa (jugadores y usuarios)
+├── index.html           # Punto de entrada
+├── style.css            # Estilos del proyecto
+├── main.js              # Lógica de la SPA y funcionalidades
+└── README.md            # Este archivo
 ```
 
----
+## 🔐 Usuarios de prueba
 
-## 🚀 ¿Cómo ejecutar el proyecto?
+Puedes usar estos datos en el login:
 
-### 1. Clona el repositorio
+**Admin:**
+- Usuario: `admin`
+- Contraseña: `123`
 
-```bash
-git clone https://github.com/tuusuario/CRUD.git
-cd CRUD
-```
-
-### 2. Instala json-server (si no lo tienes)
-
-```bash
-npm install -g json-server
-```
-
-### 3. Crea el archivo `db.json` con contenido inicial como este:
-
-```json
-{
-  "players": []
-}
-```
-
-### 4. Ejecuta el servidor
-
-```bash
-json-server --watch db.json --port 3000
-```
-
-La API estará disponible en:  
-📍 `http://localhost:3000/players`
-
-### 5. Abre el proyecto en el navegador
-
-Abre `index.html` en tu navegador (puedes usar Live Server en VS Code o doble clic).
-
----
-
-## ✨ Funcionalidades
-
-- ✅ Agregar nuevos jugadores
-- 📋 Listar todos los jugadores
-- 📝 Editar datos existentes
-- ❌ Eliminar jugadores
-- 🔄 Recarga automática de la tabla después de cada operación
-
----
-
-## 💡 Mejoras futuras
-
-- Validación más avanzada del formulario
-- Filtrado o búsqueda por nombre o posición
-- Alerta personalizada con SweetAlert2
-- Diseño responsive con media queries
-
----
+**Usuario:**
+- Usuario: `user`
+- Contraseña: `123`
 
 ## 📸 Vista previa
 
-*(Puedes incluir una captura de pantalla del formulario y la tabla aquí si deseas)*
+> Puedes incluir capturas aquí si deseas
 
 ---
 
-## 🧑‍💻 Autor
-
-**Tu nombre aquí**  
-GitHub: [@tuusuario](https://github.com/tuusuario)
+Desarrollado por **Andres Restrepo**
