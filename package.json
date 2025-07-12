@@ -1,0 +1,24 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Este proyecto es una aplicación web simple que permite **crear, leer, actualizar y eliminar (CRUD)** jugadores de fútbol. Está construido con **HTML, CSS y JavaScript puro**, y utiliza `json-server` para simular una API REST local.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresRestrepoDev/CRUD-Soccer-Player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresRestrepoDev/CRUD-Soccer-Player/issues"
+  },
+  "homepage": "https://github.com/AndresRestrepoDev/CRUD-Soccer-Player#readme",
+  "devDependencies": {
+    "vite": "^7.0.4"
+  }
+}

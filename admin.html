@@ -1,0 +1,34 @@
+<section id="contenedor-admin">
+    <nav>
+        <h2>CRUD Jugadores De Futbol</h2>
+        <button id="close-sesion">Cerrar Sesión</button>
+    </nav>
+    <div id="contenedor-form">
+        <form id="formulario">
+            
+            <label for="name">Nombre jugador:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="posicion">Posicion:</label>
+            <input type="text" name="posicion" id="posicion">
+            <label for="pais">Nacionalidad:</label>
+            <input type="text" id="pais" name="pais" required>
+            <label for="pie">Pierna habil:</label>
+            <input type="text" id="pie" name="pie" required>
+            <button type="submit" id="btnGuardar">Guardar datos</button>
+        </form>
+    </div>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Posición</th>
+                <th>País</th>
+                <th>Pie</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+            <!-- Aquí se insertarán dinámicamente las filas desde JS -->
+        </tbody>
+    </table>
+</section>

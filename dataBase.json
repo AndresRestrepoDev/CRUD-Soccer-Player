@@ -1,32 +1,55 @@
 {
-  "players": [
+  "jugadores": [
     {
-      "name": "Andres Felipe Restrepo Ramirez",
-      "posicion": "volante medio",
-      "pais": "colombia",
-      "pie": "derecha",
+      "name": "Liones Messi",
+      "posicion": "Mesias",
+      "pais": "Argentino",
+      "pie": "Izquierda",
       "id": "4bad"
     },
     {
       "name": "Cristiano Ronaldo",
-      "posicion": "Extremo Derecho",
+      "posicion": "Delantero",
       "pais": "Portugues",
-      "pie": "derecha",
+      "pie": "Derecha",
       "id": "fdc7"
     },
     {
-      "id": "ebf5",
-      "name": "Liones Messi",
-      "posicion": "Diez",
-      "pais": "Argelia",
-      "pie": "izquierda"
+      "name": "James Rodriguez",
+      "posicion": "Volante creacion",
+      "pais": "Colombia",
+      "pie": "Izquierda",
+      "id": "5f1d"
     },
     {
-      "id": "ce6c",
-      "name": "Maradona",
-      "posicion": "diez",
-      "pais": "venezuela",
-      "pie": "izquierda"
+      "id": "f31b",
+      "name": "Casemiro",
+      "posicion": "Volante 6",
+      "pais": "Brasil",
+      "pie": "derecha"
+    },
+    {
+      "id": "3007",
+      "name": "Luka Modric",
+      "posicion": "Volante creacion",
+      "pais": "Croacia",
+      "pie": "Derecha"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "user": "Andres Restrepo",
+      "edad": 21,
+      "role": "user",
+      "password": 1234
+    },
+    {
+      "id": "2",
+      "user": "Pep Guardiola",
+      "edad": 38,
+      "role": "admin",
+      "password": 1234
     }
   ]
 }
